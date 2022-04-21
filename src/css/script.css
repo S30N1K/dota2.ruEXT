@@ -1,0 +1,223 @@
+.smusTs {
+    box-shadow: 0px 0px 5px 2px #0051b5;
+}
+
+.smusSub {
+    box-shadow: 0px 0px 5px 2px #009328;
+}
+
+.smusIgnore {
+    box-shadow: 0px 0px 5px 2px #a10015;
+}
+
+.smusTsSub {
+    box-shadow: -3px 0px 4px 0px #009328, 3px 0px 4px 0px #0051b5;
+}
+
+.smusTsIgnore {
+    box-shadow: -3px 0px 4px 0px #a10015, 3px 0px 4px 0px #0051b5;
+}
+
+.smusNotificationsDialog img {
+    margin: 10px;
+}
+
+.smusNotificationsDialog .header__sublist {
+    width: 400px;
+    margin-right: -78px;
+    margin-top: -10px;
+}
+
+.smusNotificationsDialog {
+    color: #bbbbbb !important;
+}
+.smusNotificationsDialog a {
+    color: #00c0ff !important;
+}
+.smusNotificationsDialog .header__sublink:hover {
+    color: #bbbbbb !important;
+}
+
+#project-dota2 > header > div.header__subb > ul.header__list > li:nth-child(3) > a > span {
+    margin-top: 13px;
+}
+
+.smusTopIconFix {
+    align-items: center;
+    margin-left: 12px;
+    display: inherit !important;
+}
+
+.smusTopIconFix:hover .header__sublist {
+    display: block;
+}
+
+.smusNotificationsDialogList {
+    max-height: calc(100vh - 100px);
+    width: 400px !important;
+}
+.smusNotificationsDialogList .avatar{
+    margin-right: 10px;
+}
+
+.smusSearch {
+    padding: 14px;
+}
+
+.smusSmilesSearch {
+    width: calc(100% - 64px);
+    height: 42px;
+    border: none;
+    color: gray;
+    background: transparent !important;
+}
+
+.smusSmilesList {
+    max-height: 278px !important;
+}
+.smusScroll {
+    overflow-y: auto !important;
+}
+.smusScroll:hover {
+    -webkit-overflow-scrolling: touch !important;
+    -moz-overflow-scrolling: touch !important;
+    -ms-overflow-scrolling: touch !important;
+    -o-overflow-scrolling: touch !important;
+    overflow-scrolling: touch !important;
+}
+
+.smusScroll::-webkit-scrollbar {
+    -webkit-appearance: none !important;
+    width: 7px !important;
+}
+.smusScroll::-webkit-scrollbar-thumb {
+    border-radius: 2px !important;
+    background-color: rgba(0,0,0,0.5) !important;
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,0.5) !important;
+}
+
+.forum .forum__item:nth-of-type(-n+4) {
+    margin-left: 0 !important;
+    border-left: none !important;
+}
+
+input[type="text"] {
+    outline: none;
+    border: 1px solid gray;
+    height: 30px;
+}
+
+.onlineMarker{
+    box-sizing: content-box;
+    background-color: #19bb37;
+    left: 5px;
+    top: 5px;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    border: solid 4px var(--color-panel-thread);
+}
+
+.smusUploadInfo {
+    background: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    opacity: .8;
+    color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tournaments {
+    display: none !important;
+}
+
+.smusTopIconFix {
+    flex-wrap: nowrap;
+}
+
+#project-dota2{
+    padding: 0 5px;
+}
+
+@media (max-width: 680px){
+    .forum-theme__top-block-info {
+        width: auto;
+    }
+}
+
+@media (max-width: 665px){
+    .index__left-bar, .index__right-bar, .index__main {
+        margin: 0 0 12px !important;
+    }
+}
+
+@media (max-width: 700px){
+    .header__list {
+        justify-content: flex-end;
+        height: 41px;
+        padding-right: 3px;
+    }
+}
+
+@media (max-width: 1262px){
+    .header {
+        margin: 0 -5px !important;
+        max-width: calc(100% + 10px);
+    }
+}
+
+@media (max-width: 500px){
+    .img-40.img-rounded-50p{
+        height: 36px;
+        width: 36px;
+
+    }
+    .img-40.img-rounded-50p:not([alt='user']){
+        margin-left: 30px;
+    }
+    .forum-page__item-avtar-wrap{
+        margin-left: 30px;
+    }
+    .forum-page__item-avtar-wrap, .forum-page__item-avtar-theme{
+        width: 100%;
+        max-width: 250px;
+    }
+    .forum-page__item-avtar-wrapper{
+        width: 100%;
+        max-width: 300px;
+        white-space: nowrap;
+    }
+    .forum-page__item-list {
+        margin: 5px 0px 0px 20px !important;
+        padding-bottom: 5px !important;
+    }
+}
+
+@media (max-width: 900px){
+    .forum-theme__item-avatar{
+        width: 70px !important;
+    }
+    .forum-theme__item-left{
+        margin-right: 0px !important;
+    }
+    .forum-theme__item-left-mob{
+        height: 50px;
+    }
+    .forum-theme__item-lvl{
+        margin-left: 5px;
+    }
+    .onlineMarker{
+        height: 9px;
+        width: 9px;
+    }
+}
+
+
+
+.forum-theme__item-avatar > img{
+    display: block;
+}

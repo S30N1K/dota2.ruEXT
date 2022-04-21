@@ -1,0 +1,6 @@
+.forum-theme__item-left {
+    height: min-content !important;
+    border-radius: 6px !important;
+    width: 140px !important;
+    padding: 10px !important;
+}
